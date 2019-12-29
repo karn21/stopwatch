@@ -1,0 +1,102 @@
+.basic {
+    margin:auto;
+    margin-top:20px;
+    height:300px;
+    width:300px;
+    background-color: #7b7c7e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius:50%;
+    border:10px solid rgb(85, 85, 85);
+}
+
+.time {
+    display:flex;
+    justify-content: center;
+}
+
+.time-elem {
+    font-weight:bolder;
+    font-size: calc(10px + 2.2vmin);
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.time-input {
+    padding:6px;
+    font-size:22px;
+    border-radius:5px;
+    border:0;
+    outline:none;
+    width:10em;
+    text-align: center;
+    background-color: #7b7c7e;
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(165, 165, 165);
+  opacity: 1; /* Firefox */
+}
+
+
+.time-input:focus {
+    border-bottom:1px solid #0263e2;
+}
+
+.time-input:read-only {
+  cursor:not-allowed;
+}
+
+.button {
+    margin-top:20px;
+    padding:5px 7px;
+    border:0;
+    color:white;
+    font-size: 16px;
+  }
+
+  .button:disabled {
+    cursor:not-allowed;
+  }
+  
+  .btn-red {
+    background-color: red;
+  }
+  .btn-red:hover {
+    background-color: rgb(197, 7, 7);
+  }
+
+  .btn-green {
+    background-color: rgb(20, 145, 30);
+  }
+  .btn-green:hover {
+    background-color: rgb(9, 117, 18);
+  }
+
+  .btn-green:disabled {
+    background-color: rgb(72, 161, 80);
+  }
+  
+  
+.btn-yellow {
+    color:black;
+    background-color: rgb(208, 255, 1);
+  }
+  
+  .btn-yellow:hover {
+    background-color: rgb(140, 170, 5);
+  }
+
+  .btn-yellow:disabled {
+    background-color: rgb(156, 177, 65);
+  }
+  
+  .button:focus {
+    outline:none;
+  }
